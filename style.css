@@ -1,6 +1,77 @@
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
 .slide{
     width: 100vw;
     height: 100vh;
     background-color: #181818;
     color: white;
+}
+p{
+    margin-left: 200px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.s2{
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/30/20/58/programming-1873854_960_720.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.s3{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/1884/1884795.png");
+    background-size: 300px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+.overlap{
+    text-shadow: -2px 0px #181818, 0px 2px #181818, 2px 0px #181818, 0px -2px #181818;
+}
+.s4{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/2784/2784389.png");
+    background-size: 300px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+.s5{
+    background-image: url("https://cdn.pixabay.com/photo/2019/04/30/12/34/skyscrapers-4168483_960_720.jpg");
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+.table{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.table img{
+    margin-top: 70px;
+    width: 200px;
+}
+.table>.card>div{
+    margin-top: 75px;
+}
+.card{
+    background-color: white;
+    width: 330px;
+    height: 500px;
+    border-radius: 64px;
+    color: black;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: 5px solid gray;
+}
+.s8{
+    font-family: sans-serif;
+    background-image: url("https://static-00.iconduck.com/assets.00/fire-emoji-402x512-8ma95d17.png");
+    background-size: 200px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+}
+.s9 img{
+    width: 300px;
 }
